@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 
 function Movie({ id,title, mediumCoverImage, summary, genres}) {
+  console.log(title)
     return (
       <div>
             <h2><Link to={`/movie/${id}`}>{title}</Link></h2>

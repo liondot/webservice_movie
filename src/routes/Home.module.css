@@ -9,7 +9,6 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    overflow-y: hidden;
 }
 
 ul {
@@ -20,8 +19,15 @@ li {
     font-weight: bold;
     list-style: none;
     display: block;
+    color: #333;   
+}
+a{
+    color: #333;
 }
 
+h1, h2, h3, span, div {
+    color: #333;
+}
 .main {
    display: flex;
 }
@@ -38,10 +44,11 @@ li {
     height: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .movie {
-    width: 40%;
+    width: 25%;
     text-align: center;
     margin: 20px;
     background-color: #f2f2f2;

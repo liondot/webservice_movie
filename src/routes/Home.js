@@ -29,7 +29,7 @@ const [addMovies, setMovie] = useState([])
             id={movie.id}
             key={movie.id}
             title={movie.title}
-            mediumCoverImage={movie.medium_cover_image}
+            mediumCoverImage={movie.medium_cover_image} 
             summary={movie.summary}
             genres={movie.genres} 
             />
